@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Me</title>
+  <style>
+    body {
+      text-align: center;
+      background-color: #f0f0f0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 50px;
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #34495e;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    input, textarea {
+      width: 300px;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #2980b9;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #3498db;
+    }
+
+    a.btn-back {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #2980b9;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    a.btn-back:hover {
+      color: #3498db;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <form>
+  <input type="text" placeholder="Saka sunanka" required><br>
+  <input type="saneeabdul161@gmail.com" placeholder="saneeabdul161@gmail" required><br>
+  <textarea rows="5" placeholder="Sakon ka..." required></textarea><br>
+  <button type="submit">Send Message</button>
+</form>
+<form action="mailto:saneeabdul161@gmail.com" method="post" enctype="text/plain">
+  <input type="text" name="name" placeholder="Abdulsamad" required><br>
+  <input type="email" name="email" placeholder="saneeabdul161@gmail.com" required><br>
+  <textarea name="message" rows="5" placeholder="Sakon ka..." required></textarea><br>
+  <button type="submit">Send Message</button>
+</form>
+
+</html>
